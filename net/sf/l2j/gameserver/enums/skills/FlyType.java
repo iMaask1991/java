@@ -1,0 +1,9 @@
+package net.sf.l2j.gameserver.enums.skills;
+
+public enum FlyType
+{
+	THROW_UP,
+	THROW_HORIZONTAL,
+	DUMMY, // no effect
+	CHARGE; // H5: corre hasta el objetivo (Rush)
+}
